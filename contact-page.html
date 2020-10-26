@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>עידן הובלות - ההובלות של ישראל</title>
+  <meta name="description" content="ההובלות הטובות במדינה">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background: #FFF9F1;">
+    <div class="content" style="padding-right: 0;">
+        <div class="nav-bar">
+         <div class="content" style="padding-right: 0;">
+            <div class="nav-bar">
+               <img src="images/drawing copy 4.svg" alt="box" class="box-logo">
+                <ul>
+                  <li class="home"><a style="color: black; font-weight: 600; margin-top: -8px; font-size: 32px;" href="index.html">עידן הובלות</a></li>
+                   <li class="about" onClick="about()"><a >אודות</a></li>
+                   <li class="contact" onClick="services()"><a>שירותי ההובלה</a></li>
+                   <li><a>גלריית תמונות</a></li>
+                   <li><a>המלצות</a></li>
+                   <li class="contact" onClick="contact()"><a>צרו קשר</a></li>
+                   <div class="nav-icons">
+                   <a href="tel:0533410530" ></a><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+                   <a style="color: black; height: 50px; width: 50px;" target="_blank" href="https://api.whatsapp.com/send?phone=972533410530&text=%D7%A9%D7%9C%D7%95%D7%9D,%20%D7%90%D7%A0%D7%99%20%D7%A8%D7%95%D7%A6%D7%94%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%20%D7%94%D7%95%D7%91%D7%9C%D7%94"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
+                   <a style="color: black;" target="_blank" href="https://www.facebook.com/IdanHovalot/"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
+                  </div>
+                </ul>
+            </div>       
+       <div class="contact-form">
+        <form action="send.php" method="post">
+           <div class="hy">      
+         <div class="h3-pr">
+           <p>&nbsp;</p>
+           <br><br>
+           <p id="contact-2">לקבלת הצעת מחיר</p>
+           <p class="contact-header-2">השאירו פרטים</p>
+               <div class="border-contact-2"></div>
+          </div>
+          <br><br>
+          <form action="send.php" method="POST">
+
+            <div class="form" style="right: 6.5%;">
+               <input type="text" placeholder=" " name="name" autocomplete="off" required/>
+                <label for="name" class="label-name" >
+                  <span class="content-name">שם מלא<span class="star">*</span></span>
+               </label>
+               </div>
+               <div class="form" style="right: 6.5%;">
+                <input type="tel" placeholder=" " name="phone" autocomplete="off" required/>
+                <label for="phone" class="label-name" >
+                  <span class="content-name">טלפון<span class="star">*</span></span>
+               </label>
+               </div>
+               <div class="form" style="right: 6.5%;">
+                <input type="email" placeholder=" " name="email" autocomplete="off" required/>
+                <label for="email" class="label-name" >
+                  <span class="content-name">מייל<span class="star">*</span></span>
+               </label>
+                 </div>
+                 <div class="form" style="right: 6.5%;">
+                  <textarea type="text" placeholder=" " name="email" autocomplete="off" ></textarea>
+                  <label for="email" class="label-name" > 
+                     <span class="content-name">סוג ההובלה</span>
+                  </label>
+                   </div>           
+           
+               </form>
+               <button class="submit" type="submit" value="submit" class="submit">שלח</button>
+   </form>
+   </div>
+ 
+   <img src="images/contact-page-illustration.svg" style="margin-right: 800px; margin-top: -35%;">
+  
+
+</body>
+</html>
